@@ -25,6 +25,6 @@ jobs:
 
           - name: 'Build Inventory Image'
             run: |
-              docker build . --tag ghcr.io/<your-GitHub-username>/mkdocs_template:latest
-              docker push ghcr.io/<your-GitHub-username>/mkdocs_template:latest
+              docker build . --tag ghcr.io/danielnj21/mkdocs_template:latest
+              docker push ghcr.io/danielnj21/mkdocs_template:latest
 
